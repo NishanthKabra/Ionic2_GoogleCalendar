@@ -44,8 +44,8 @@
                 <ion-item *ngFor="let attendee of attendees;let i = index" inset>
                     <ion-label>Attendee {{attendees.length - i}}</ion-label>
                     <ion-input [(ngModel)]="attendee.email"></ion-input>
-                    <ion-icon name="md-remove-circle" item-right style="font-size: 40px;" (click)="removeAttendees(i)" *ngIf="attendees.length - i < attendees.length"></ion-icon>
-                    <ion-icon name="md-add-circle" item-right style="font-size: 40px;" (click)="addAttendees()" *ngIf="attendees.length - i  == attendees.length"></ion-icon>
+                    <ion-icon name="md-remove-circle" item-right class="addRemoveBtn" (click)="removeAttendees(i)" *ngIf="attendees.length - i < attendees.length"></ion-icon>
+                    <ion-icon name="md-add-circle" item-right class="addRemoveBtn" (click)="addAttendees()" *ngIf="attendees.length - i  == attendees.length"></ion-icon>
                 </ion-item>
             </ion-list>
         </ion-item-group>

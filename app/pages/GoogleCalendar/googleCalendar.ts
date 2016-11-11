@@ -21,9 +21,9 @@ export class GoogleCalendar {
     
     validation:any = {};
      
-    CLIENT_ID = '481043823855-nojs2inha6aupp7vaghl6dicn28503ou.apps.googleusercontent.com';
+    CLIENT_ID = 'XXXXXXXXXXXXXXXX.apps.googleusercontent.com';
     SCOPES = ["https://www.googleapis.com/auth/calendar"];
-    APIKEY = "AIzaSyD-KtMtdRpbQoutpLOasqtiGo12LvxJnNk";
+    APIKEY = "XXXXXXXXX-XXXXXXXXXXXXXXXXXX";
     REDIRECTURL = "http://localhost/callback";
     
     sendInvite() {
